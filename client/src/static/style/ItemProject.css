@@ -1,0 +1,33 @@
+tr {
+    height:100%;
+}
+.list-item {
+    border: solid 1px;
+}
+.project-no {
+    font-size: 4.4em;
+    text-align: center;
+    font-weight: bold;
+}
+.project-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.vote-btn {
+    font-size: 40px;
+    width: 140px;
+}
+.team-pics {
+    padding: 10px;
+}
+.projects-table {
+    text-align: center;
+}
+.pics {
+    padding: 2px;
+}
+
+.pics > img {
+    border-radius: 50%;
+    width: 40px;
+}

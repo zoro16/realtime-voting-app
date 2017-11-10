@@ -1,0 +1,63 @@
+.main-title {
+    font-size: 3.3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Absolute Center Spinner */
+.video-react-big-play-button {
+  position: fixed;
+  height: 3em;
+  width: 3em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.video-react-big-play-button:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+
+
+.video-container {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+/* Absolute Center Spinner */
+.loading-spinner {
+  position: fixed;
+  z-index: 999;
+  height: 3em;
+  width: 3em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading-spinner:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}

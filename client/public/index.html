@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+        <link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+        <script src="https://api.motion.ai/sdk/webchat.js"></script>
+
+        <link href="https://www.fontify.me/wf/12c40d1f8893f9638ea29b7eea0e7584" rel="stylesheet" type="text/css">
+        <title></title>
+    </head>
+    <body>
+        <style>
+         .chatprompt {
+             right: 5px;
+             height: 60px;
+             width: 60px;
+         }
+         .chatprompt > img {
+             width: 60px;
+         }
+        </style>
+        <script>
+         motionAI_Init('61991?color=62a8ea&sendBtn=SEND&inputBox=Type%20something...&module=794931&token=<your token>',true,500,470,'https://api.motion.ai/sdk/botbtn.png');
+         /* You may also invoke motionAI_Open() to manually open the modal. */
+        </script>
+        
+        <div id="root"></div>
+
+  </body>
+</html>

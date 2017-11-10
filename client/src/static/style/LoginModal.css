@@ -1,0 +1,22 @@
+#usr {
+    width: 80%;
+    font-size: 1.3em;
+}
+
+.login-btn {
+    width: 80%;
+    padding-top: 6px;
+    margin-top: 6px;
+}
+
+.theform {height: 7em;}
+
+.form-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.error-msg {
+    color: red;
+}

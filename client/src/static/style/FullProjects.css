@@ -1,0 +1,15 @@
+.main-project-title {
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .main-td {
+        width: 60%;
+        height: auto;
+    }
+    .table-responsive > .table > tbody > tr > td {
+        white-space: normal!important;
+    }
+}

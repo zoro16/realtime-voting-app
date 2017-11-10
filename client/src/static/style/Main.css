@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "UniversLTCond";
+    src: url("../fonts/LTe50146.ttf");
+}
+
+body {
+    font-family: 'UniversLTCond', 'helvetica';
+}
+
+.header-text {
+    font-weight: bold;
+}
+
+.back-btn {
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #000000;
+}
+.back-btn:hover {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #000000;    
+}
+.back-btn-arrow {
+    padding-right: 2px;
+}
+

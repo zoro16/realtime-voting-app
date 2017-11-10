@@ -1,0 +1,10 @@
+{
+    "rethinkdb": {
+        "host": "localhost",
+        "port": 28015,
+        "db": "votingapp"
+    },
+    "secret": "votingappsecret"
+}
+
+
